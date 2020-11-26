@@ -12,6 +12,66 @@ body {
   margin: 0 auto;
 }
 
+.date {
+  margin: 1em auto;
+  padding: 30px 50px;
+  text-align:center;
+}
+h2 {
+    font-size: 30px;
+    color: rgb(253, 99, 125);
+    }              
+.timer {
+        font-size: 30px;
+        line-height: 1.5;
+        margin: 1em 0;
+        }
+        
+.timer b {
+        color: rgb(253, 99, 125);
+        }
 
-@import "_partial/header";
-@import "_partial/date"
+
+
+.header {
+  margin-top: 2em
+  display: flex
+  align-items: baseline
+  justify-content: space-between
+
+  .blog-title .logo {
+    color: rgb(253, 99, 125);
+    font-size: 2em;
+    font-family: "Comic Sans MS",cursive,LiSu,sans-serif;
+    text-decoration: none;
+  }
+
+  .menu {
+    margin: 0;
+    padding: 0;
+    color: rgb(253, 99, 125);
+
+    .menu-item {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .menu-item-link {
+      color: rgb(253, 99, 125);
+      text-decoration: none;
+
+      &:hover {
+        color: #368CCB;
+      }
+    }
+  }
+}
+
+.footer {
+    position:absolute;
+    bottom:0;
+    width:80%;
+    height:100px;
+    background-color: RGB(208,193,198)}
+
+
