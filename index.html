@@ -26,7 +26,7 @@
       <main class="main">
       <section class="date">
   <div class="date">
-      <h2> 徐靓颀 和 杨红庄 已经相识：</h2>
+      <h2> 杨红庄 和 徐靓颀 已经相识：</h2>
       <div class="timer">
       <b id="d"></b> 天 <b id="h"></b> 时 <b id="m"></b> 分 <b id="s"></b> 秒
       </div>
@@ -53,7 +53,7 @@
       <script>
         function timer() {
         window.setTimeout("timer()", 1000);
-        var start = new Date("2020-08-20 12:00:00");
+        var start = new Date("2020-08-21 12:00:00");
         var t = new Date().getTime() - start;
         var h = ~~(t / 1000 / 60 / 60 % 24);
         if (h < 10) {h = "0" + h;}
